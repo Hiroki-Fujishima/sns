@@ -1,0 +1,22 @@
+.test {
+    background-color: red;
+    position: static;
+    top: 0;
+}
+
+.header {
+    position: static;
+    top: static;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+
+.header2 {
+    position: absolute;
+    top: 2;
+    width: 100%;
+   /* background-color: aquamarine;*/
+}
+
+

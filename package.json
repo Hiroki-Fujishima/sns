@@ -17,6 +17,7 @@
     "styled-components": "4.3.2"
   },
   "devDependencies": {
+    "node-sass": "^4.14.1",
     "react-app": "1.1.2"
   },
   "scripts": {

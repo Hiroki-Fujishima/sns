@@ -1,5 +1,5 @@
 import { put, select } from "redux-saga/effects";
-import * as TYPES from "../../const/actionTypes";
+import * as TYPES from "../../const/actionType";
 
 function* run(action) {
   console.log("----------------------- in -action");
