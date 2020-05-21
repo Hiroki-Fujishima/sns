@@ -2,13 +2,13 @@ import {
     
     PUSH_SAMPLE_BUTTON_REQUEST,
    
-  } from "../../const/actionTypes";
+  } from "../../const/actionType";
   
   /** from
    * Actionは、ユーザーが起こすイベントを定義します
    */
   
-  export function putNumber(num) {
+  export function sample(num) {
     return { type: PUSH_SAMPLE_BUTTON_REQUEST };
   }
   

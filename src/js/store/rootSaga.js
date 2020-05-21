@@ -1,5 +1,5 @@
 import { all } from 'redux-saga/effects';
-import sampleController from '../sample/samplecontrollers/sampleController';
+import sampleController from '../sample/controllers/sampleController';
 
 export default function* routeSaga() {
    yield all([sampleController()]);
