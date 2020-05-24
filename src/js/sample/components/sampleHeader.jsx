@@ -9,7 +9,7 @@ class SampleHeader extends React.Component {
             <div className={css.header2}>
            
             <header >
-               TOP
+               producted by Hiroki_Fujishima
              </header>   
              
             

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -24,40 +25,37 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SampleCard() {
+export default function SampleCard3() {
   const classes = useStyles();
 
   return (
-    <div className={css.front}>
-       <div className={css.font}>
-      <h1>I'M AN ENGINEER!</h1>
-      </div>
+    <div className={css.font}>
+    <h1>SKILL</h1>
     <Card className={classes.root}>
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Welcome to Hiroki's Portfolio!
+      
         </Typography>
         <Typography variant="h5" component="h2">
-
-         はじめまして
+          Language
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-        
+          
         </Typography>
         <Typography variant="body2" component="p">
-        藤島裕貴が作成したポーとフォリオサイトとなっています。<br/>
-        このポートフォリオはReact-Reduxを使用して作成しています。<br/>
-        React.jsだけでも良いのですが、
-        Reduxの部品管理の学習するために作成してみました。<br/>
-        Reduxを使用した電卓アプリもリンクがありますので、是非ご覧ください。<br/>
-      
-          <br />
-        
+         
+         <br/>Javascript
+         <br/>Java
+         <br/>PHP
+          <br/>Swift
+          <br/>HTML
+          <br/>CSS
+         
         </Typography>
       </CardContent>
-    
+     
     </Card>
-   
     </div>
   );
 }
+

@@ -11,7 +11,13 @@
     background-color: red;
     position: right;
     top: 0;
+    width: 100%;
+    height: 30px;
 }
+.font {
+  font-family: "Impact";
+}
+
 
 
 .header {
@@ -23,10 +29,10 @@
 
 
 .header2 {
-    position: left;
-    top: 2;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-   background-color: rgb(53, 51, 214);
+   background-color: black;
 }
 
 .test3 {
@@ -120,4 +126,12 @@
   .btn-social-long-twitter:hover span {
     -webkit-transform: rotateX(360deg);
     transform: rotateX(360deg);
+  }
+
+  .back {
+    position: absolute;
+    z-index: -1;
+  }
+  .front{
+    z-index: 5;
   }

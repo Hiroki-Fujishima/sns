@@ -1,20 +1,23 @@
 import React from 'react';
 import './App.css';
-import SampleButton from './js/sample/containers/sampleButton';
-import SampleHeader from './js/sample/components/sampleHeader';
-import SampleBody from './js/sample/components/sampleBody';
-import SampleTab from './js/sample/components/sampleTab';
+
+import SampleBody from './js/sample/containers/sampleBody';
+import SampleTab from './js/sample/containers/sampleTab';
+import SampleImage from './js/sample/components/sampleImage';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <SampleTab />
-        <SampleBody/>
-        <SampleHeader/>
-        <SampleButton/>
-
       
+        <SampleImage/>
+       
+        
+        <SampleBody/>
+       
+        
       </header>
       
     </div>

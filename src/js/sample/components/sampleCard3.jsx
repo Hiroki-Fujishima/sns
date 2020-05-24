@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import css from '../styles/sampleButton.module.css';
 
@@ -23,37 +22,25 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SampleCard() {
+export default function SampleCard3() {
   const classes = useStyles();
+
   return (
     <div className={css.font}>
-    <h1>PROFILE</h1>
-    
-    
+   <h1>PRODUCTS</h1>
     <Card className={classes.root}>
       <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-       
-        </Typography>
         <Typography variant="h5" component="h2">
-          藤島 裕貴<br/>
-          フジシマ ヒロキ
-        </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-        
+        電卓アプリ
         </Typography>
         <Typography variant="body2" component="p">
-     
-         <br/>出身地：北海道
-         <br/>北海道室蘭清水丘高等学校卒業
-         <br/>趣味: スノーボード スポーツ観戦
-         <br/>好きな飲み物: ラフロイグ
-         <br/><a href="mailto:ucuc.as@gmail.com">Mail</a>
-          <br /><a href="https://github.com/Hiroki-Fujishima">GitHub</a>
-         
+         <br/>フレームワーク: React-Redux
+         <br/>バージョン: ver7.1.0
+         <br/><a href="https://sample-calc-app.web.app">作品はこちら</a> 
         </Typography>
       </CardContent>
     </Card>
     </div>
+    
   );
 }

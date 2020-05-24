@@ -5,7 +5,6 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import css from '../styles/sampleButton.module.css';
 
 const useStyles = makeStyles({
   root: {
@@ -24,40 +23,39 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SampleCard() {
+export default function SampleCard3() {
   const classes = useStyles();
+  const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <div className={css.front}>
-       <div className={css.font}>
-      <h1>I'M AN ENGINEER!</h1>
-      </div>
     <Card className={classes.root}>
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Welcome to Hiroki's Portfolio!
+       
         </Typography>
         <Typography variant="h5" component="h2">
-
-         はじめまして
+          Framework
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-        
+          
         </Typography>
         <Typography variant="body2" component="p">
-        藤島裕貴が作成したポーとフォリオサイトとなっています。<br/>
-        このポートフォリオはReact-Reduxを使用して作成しています。<br/>
-        React.jsだけでも良いのですが、
-        Reduxの部品管理の学習するために作成してみました。<br/>
-        Reduxを使用した電卓アプリもリンクがありますので、是非ご覧ください。<br/>
-      
-          <br />
-        
+         
+        <br/>Node.js
+         <br/>React.js
+         <br/>React-Redux
+          <br/>Firebase
+          <br/>Material-ui
+          <br/>WordPress
+          <br/>Elemulater
+          <br/>GitHub
+          <br/>FileZilla
+          <br/>Heroku
         </Typography>
       </CardContent>
-    
+     
     </Card>
-   
-    </div>
+    
   );
 }
+

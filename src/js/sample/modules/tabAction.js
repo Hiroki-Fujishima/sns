@@ -8,8 +8,8 @@ import {
    * Actionは、ユーザーが起こすイベントを定義します
    */
   
-  export function tab(num) {
-    return { type: PUSH_SAMPLE_TAB_REQUEST };
+  export function tab(index) {
+    return { type: PUSH_SAMPLE_TAB_REQUEST, payload: index };
   }
   
   
